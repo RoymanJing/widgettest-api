@@ -1,4 +1,4 @@
-FROM nodejs:8.4-alpine
+FROM node:8.4-alpine
 WORKDIR /app
 COPY . .
 RUN npm install
