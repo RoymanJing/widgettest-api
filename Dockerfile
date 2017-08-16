@@ -1,6 +1,6 @@
 FROM nodejs:8.4-alpine
 WORKDIR /app
 COPY . .
-#RUN npm install
+RUN npm install
 CMD ["node", "index.js"]
 EXPOSE 3001
